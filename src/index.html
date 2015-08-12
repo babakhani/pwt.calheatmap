@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persian Calendar Heat Map</title>
+    <link href='../dist/css/persian-calheatmap-0.1.0.css' rel='stylesheet' type='text/css'/>
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script charset=utf-8 src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script charset=utf-8 src="data/sample.js"></script>
+    <script charset=utf-8 src="../lib/persian-date.js"></script>
+    <script charset=utf-8 src="js/mousewheel.js"></script>
+    <script charset=utf-8 src="js/constant.js"></script>
+    <script charset=utf-8 src="js/config.js"></script>
+    <script charset=utf-8 src="js/days.js"></script>
+    <script charset=utf-8 src="js/persian-hit-chart.js"></script>
+    <script charset=utf-8 src="js/template.js"></script>
+    <script charset=utf-8 src="js/zebra_tooltips.js"></script>
+    <script charset=utf-8 src="js/plugin.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#contributionGraph").persianHitChart({
+                startDate: [1391, 1, 1, 1, 1, 1, 1],
+                endDate: [1392, 1, 1, 1, 1, 1, 1],
+                data: sampleData
+            });
+
+            $("#simpleChart").persianHitChart({
+                startDate: [1391, 1, 1, 1, 1, 1, 1],
+                endDate: [1392, 1, 1, 1, 1, 1, 1],
+                data: sampleData,
+                dayWidth: 15,
+                dayHeight: 15,
+                days: {
+                    label: {
+                        enabled: false
+                    }
+                }
+            });
+
+            $("#bigDays").persianHitChart({
+                startDate: [1391, 1, 1, 1, 1, 1, 1],
+                endDate: [1392, 1, 1, 1, 1, 1, 1],
+                data: sampleData,
+                dayWidth: 90,
+                dayHeight: 90,
+                days: {
+                    label: {
+                        enabled: true
+                    },
+                    renderData:function($day,data){
+
+                    },
+                    onClick:function(){
+
+                    }
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+<div class="col-xs-12">
+    <div class="col-xs-9">
+        <h1>Persian Calendar Heat Map</h1>
+
+        <p>
+            <span class="label label-success">Version 0.1.0</span>
+        </p>
+    </div>
+</div>
+
+
+<div class="col-xs-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>Simple Example</h4>
+        </div>
+        <div class="panel-body">
+
+            <div id="simpleChart"></div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="col-xs-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>Simple Example</h4>
+        </div>
+        <div class="panel-body">
+
+            <div id="contributionGraph"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>Simple Example</h4>
+        </div>
+        <div class="panel-body">
+
+            <div id="bigDays"></div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

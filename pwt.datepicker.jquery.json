@@ -1,0 +1,39 @@
+{
+    "name": "pwt.calheatmap",
+    "title": "jQuery Calendar Heat Map",
+    "description": "pwt.calheatmap is a javascript plugin to help create a calendar heat map, to visualize your time series data.Like GitHub contribution graph. ",
+    "keywords": [
+        "calendar heat map",
+        "heat map",
+        "datetimepicker",
+        "jalali",
+        "khayam",
+        "persian",
+        "iran"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Reza Babakhani",
+        "url": "http://babakhani.github.io/PersianWebToolkit/"
+    },
+    "maintainers": [
+        {
+            "name": "Reza Babakhani",
+            "email": "babakhani.reza@gmail.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/babakhani/pwt.calheatmap/issues",
+    "homepage": "http://babakhani.github.io/PersianWebToolkit/calheatmap.html",
+    "docs": "http://babakhani.github.io/PersianWebToolkit/calheatmap.html",
+    "download": "https://github.com/babakhani/pwt.calheatmap/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5",
+        "pwt-date": ">=0.1.8"
+    }
+}

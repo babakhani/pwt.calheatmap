@@ -1,0 +1,13 @@
+{
+    "name": "persian-calheatmap"",
+    "version": "0.1.0",
+    "main": "dist/",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+        "jquery": ">=1.10.2",
+        "persian-date": ">=0.1.8"
+    }
+}
