@@ -9,6 +9,7 @@ Persian Web Toolkit Calendar Heat Map (pwt.calheatmap) is a javascript plugin to
 - [List of functions](#list_of_functions)
 - [How to contribute](#how_to_contribute)
 - complete soon...
+
 ----------
 
 ### <a id="demo"></a>Demo
