@@ -10,16 +10,16 @@ Persian Web Toolkit Calendar Heat Map (pwt.calheatmap) is a javascript plugin to
 - [How to contribute](#how_to_contribute)
 - complete soon...
 
-### Demo
+### <a id="demo"></a>Demo
 -----------------
-See online demo [here](http://htmlpreview.github.io/?https://github.com/babakhani/pwt.calheatmap/blob/master/src/index.html target="_blank").
+See online demo <a href="http://htmlpreview.github.io/?https://github.com/babakhani/pwt.calheatmap/blob/master/src/index.html" target="_blank">here</a>.
 
-### How to use
+### <a id="how_to_use"></a>How to use
 -----------
 complete soon...
-### List of functions
+### <a id="list_of_functions"></a>List of functions
 -----------------
 complete soon...
-### How to contribute
+### <a id="how_to_contribute"></a>How to contribute
 ------------------
 complete soon...
