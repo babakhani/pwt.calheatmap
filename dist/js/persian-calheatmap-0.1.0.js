@@ -361,7 +361,7 @@ var Class_Config = {
     /**
      * @desc weekDayTitle
      */
-    weekDayTitle: ["شنبه", "", "دوشنبه", "", "چهارشنبه", "", "جمعه"],
+    weekDayTitle: ["شنبه", "یکشنبه", "دوشنبه", "سشنبه", "چهارشنبه", "پنجشنبه", "جمعه"],
 
 
     /**
@@ -421,8 +421,6 @@ var Class_Config = {
             show_delay: 100,
             vertical_offset: 0
         }
-
-
     }
 }
 
